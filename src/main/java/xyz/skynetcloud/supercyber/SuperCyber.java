@@ -9,13 +9,9 @@ import net.minecraft.block.material.Material;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Rarity;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -27,6 +23,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import xyz.skynetcloud.supercyber.items.tools.ToolAxeBase;
 import xyz.skynetcloud.supercyber.items.tools.ToolHoeBase;
 import xyz.skynetcloud.supercyber.items.tools.ToolPickaxeBase;
+import xyz.skynetcloud.supercyber.items.tools.ToolShovelBase;
+import xyz.skynetcloud.supercyber.items.tools.ToolSwordBase;
 import xyz.skynetcloud.supercyber.list.ArmourMaterialList;
 import xyz.skynetcloud.supercyber.list.BlockInit;
 import xyz.skynetcloud.supercyber.list.ItemList;
@@ -84,16 +82,16 @@ public class SuperCyber {
 					ItemList.DARK_STEEL_AXE = new ToolAxeBase(ToolMaterialList.dark_steel, 3, 3,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("dark_steel_axe")),
-					ItemList.DARK_STEEL_HOE = new HoeItem(ToolMaterialList.dark_steel, 0,
+					ItemList.DARK_STEEL_HOE = new ToolHoeBase(ToolMaterialList.dark_steel, 0,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("dark_steel_hoe")),
-					ItemList.DARK_STEEL_PICKAXE = new PickaxeItem(ToolMaterialList.dark_steel, 2, 5,
+					ItemList.DARK_STEEL_PICKAXE = new ToolPickaxeBase(ToolMaterialList.dark_steel, 2, 5,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("dark_steel_pickaxe")),
-					ItemList.DARK_STEEL_SHOVEL = new ShovelItem(ToolMaterialList.dark_steel, 3, 1,
+					ItemList.DARK_STEEL_SHOVEL = new ToolShovelBase(ToolMaterialList.dark_steel, 3, 1,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("dark_steel_shovel")),
-					ItemList.DARK_STEEL_SWORD = new SwordItem(ToolMaterialList.dark_steel, 4, 4,
+					ItemList.DARK_STEEL_SWORD = new ToolSwordBase(ToolMaterialList.dark_steel, 4, 4,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("dark_steel_sword")),
 
@@ -103,24 +101,24 @@ public class SuperCyber {
 							new Item.Properties().group(SuperCyber.cybertab)).setRegistryName(location("ruby_hoe")),
 					ItemList.RUBY_PICKAXE = new ToolPickaxeBase(ToolMaterialList.ruby, 3, 1,
 							new Item.Properties().group(SuperCyber.cybertab)).setRegistryName(location("ruby_pickaxe")),
-					ItemList.RUBY_SHOVEL = new ShovelItem(ToolMaterialList.ruby, 0, 0,
+					ItemList.RUBY_SHOVEL = new ToolShovelBase(ToolMaterialList.ruby, 0, 0,
 							new Item.Properties().group(SuperCyber.cybertab)).setRegistryName(location("ruby_shovel")),
-					ItemList.RUBY_SWORD = new SwordItem(ToolMaterialList.ruby, 10, 5,
+					ItemList.RUBY_SWORD = new ToolSwordBase(ToolMaterialList.ruby, 10, 5,
 							new Item.Properties().group(SuperCyber.cybertab)).setRegistryName(location("ruby_sword")),
 
 					ItemList.VIBRANIUM_AXE = new ToolAxeBase(ToolMaterialList.vibranium, 5, 5,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("vibranium_axe")),
-					ItemList.VIBRANIUM_HOE = new HoeItem(ToolMaterialList.vibranium, 0,
+					ItemList.VIBRANIUM_HOE = new ToolHoeBase(ToolMaterialList.vibranium, 0,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("vibranium_hoe")),
-					ItemList.VIBRANIUM_PICKAXE = new PickaxeItem(ToolMaterialList.vibranium, 5, 5,
+					ItemList.VIBRANIUM_PICKAXE = new ToolPickaxeBase(ToolMaterialList.vibranium, 5, 5,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("vibranium_pickaxe")),
-					ItemList.VIBRANIUM_SHOVEL = new ShovelItem(ToolMaterialList.vibranium, 5, 5,
+					ItemList.VIBRANIUM_SHOVEL = new ToolShovelBase(ToolMaterialList.vibranium, 5, 5,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("vibranium_shovel")),
-					ItemList.VIBRANIUM_SWORD = new SwordItem(ToolMaterialList.vibranium, 15, 15,
+					ItemList.VIBRANIUM_SWORD = new ToolSwordBase(ToolMaterialList.vibranium, 15, 15,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("vibranium_sword")),
 
