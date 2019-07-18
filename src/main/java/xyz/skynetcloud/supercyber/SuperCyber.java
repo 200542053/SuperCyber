@@ -52,9 +52,7 @@ public class SuperCyber {
 	}
 
 	private void setup(final FMLCommonSetupEvent event) {
-
 		OreGeneration.setupOreGeneration();
-
 		logger.info("Setup method registered.");
 
 	}
