@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapless",
+	
+	"pattern":
+	[
+		"RRR",
+		"RRR",
+		"RRR"
+	],
+	
+	"key":
+	{
+		"R": { "item": "cx:ruby" }
+	},
+	
+	"result": { "item": "cx:ruby_block" }
+}

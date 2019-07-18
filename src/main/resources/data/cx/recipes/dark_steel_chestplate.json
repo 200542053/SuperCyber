@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"D D",
+		"DDD",
+		"DDD"
+	],
+	
+	"key":
+	{
+		"D": { "item": "cx:dark_steel" }
+	},
+	
+	"result": { "item": "cx:dark_steel_chestplate" }
+}

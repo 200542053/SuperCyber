@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapless",
+	
+	"pattern":
+	[
+		"VVV",
+		"VVV",
+		"VVV"
+	],
+	
+	"key":
+	{
+		"V": { "item": "cx:vibranium" }
+	},
+	
+	"result": { "item": "cx:vibranium_block" }
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapless",
+	"pattern": [
+		"DDD",
+		"DDD",
+		"DDD"
+	],
+	"key": {
+		"D": {
+			"item": "cx:dark_steel"
+		}
+	},
+	"result": {
+		"item": "cx:dark_steel_block"
+	}
+}

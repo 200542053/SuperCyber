@@ -1,0 +1,604 @@
+[18Jul2019 09:59:18.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190624.152911, --fml.mcVersion, 1.14.3, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 27.0.51, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\SkyNetCloud\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[18Jul2019 09:59:18.052] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.0.1+56+e6669cf starting: java version 1.8.0_211 by Oracle Corporation
+[18Jul2019 09:59:19.976] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18Jul2019 09:59:21.779] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\SkyNetCloud\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[18Jul2019 09:59:31.205] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[18Jul2019 09:59:33.322] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[18Jul2019 09:59:55.994] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[18Jul2019 09:59:56.077] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[18Jul2019 10:00:00.450] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 27.0.51, for MC 1.14.3 with MCP 20190624.152911
+[18Jul2019 10:00:00.451] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v27.0.51 Initialized
+[18Jul2019 10:00:02.569] [Client thread/INFO] [cx/]: Blocks registered.
+[18Jul2019 10:00:02.680] [Client thread/INFO] [cx/]: Items registered.
+[18Jul2019 10:00:09.408] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[18Jul2019 10:00:10.044] [Client thread/INFO] [com.mojang.realmsclient.plugin.RealmsPluginImpl/]: Built for minecraft version 1.14.3
+[18Jul2019 10:00:11.452] [Realms Notification Availability checker #1/INFO] [realms.g/]: Could not authorize you against Realms server: Invalid session id
+[18Jul2019 10:00:19.173] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[18Jul2019 10:00:19.183] [modloading-worker-3/INFO] [cx/]: Setup method registered.
+[18Jul2019 10:00:19.479] [modloading-worker-3/INFO] [cx/]: clientRegistries method registered.
+[18Jul2019 10:00:19.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18Jul2019 10:00:20.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 27.0.51 Target: 27.0.57
+[18Jul2019 10:00:29.124] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'cx:vibranium_boots#inventory' referenced from: cx:vibranium_boots#inventory: java.io.FileNotFoundException: cx:models/item/vibranium_boots.json
+[18Jul2019 10:00:29.130] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'cx:null_helmet#inventory' referenced from: cx:null_helmet#inventory: java.io.FileNotFoundException: cx:models/item/null_helmet.json
+[18Jul2019 10:00:29.133] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'cx:null_chestplate#inventory' referenced from: cx:null_chestplate#inventory: java.io.FileNotFoundException: cx:models/item/null_chestplate.json
+[18Jul2019 10:00:29.136] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'cx:null_leggings#inventory' referenced from: cx:null_leggings#inventory: java.io.FileNotFoundException: cx:models/item/null_leggings.json
+[18Jul2019 10:00:29.138] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'cx:null_boots#inventory' referenced from: cx:null_boots#inventory: java.io.FileNotFoundException: cx:models/item/null_boots.json
+[18Jul2019 10:00:29.896] [Server-Worker-1/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load cx:textures/blocks/ruby_ore.png : java.io.FileNotFoundException: cx:textures/blocks/ruby_ore.png
+[18Jul2019 10:00:30.007] [Server-Worker-4/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load cx:textures/blocks/vibranium_ore.png : java.io.FileNotFoundException: cx:textures/blocks/vibranium_ore.png
+[18Jul2019 10:00:30.054] [Server-Worker-1/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load cx:textures/blocks/dark_steel_ore.png : java.io.FileNotFoundException: cx:textures/blocks/dark_steel_ore.png
+[18Jul2019 10:00:31.586] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[18Jul2019 10:00:31.991] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[18Jul2019 10:00:31.993] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[18Jul2019 10:00:32.572] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[18Jul2019 10:00:35.026] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[18Jul2019 10:00:35.052] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[18Jul2019 10:00:35.056] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[18Jul2019 10:00:43.878] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Jul2019 10:00:43.880] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jul2019 10:00:43.882] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jul2019 10:00:43.885] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Jul2019 10:00:43.888] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jul2019 10:00:44.272] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.3
+[18Jul2019 10:00:44.273] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[18Jul2019 10:00:44.520] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[18Jul2019 10:00:44.598] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[18Jul2019 10:00:45.471] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.14.3-27.0.51_mapped_snapshot_20190621-1.14.2-recomp.jar, main
+[18Jul2019 10:00:48.496] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:dark_steel_hoe
+com.google.gson.JsonSyntaxException: Pattern references symbol 'D' but it's not defined in the key
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeIngredients(ShapedRecipe.java:170) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$200(ShapedRecipe.java:26) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:306) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.523] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_shovel
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.555] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_pickaxe
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.558] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_leggings
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.563] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_chestplate
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.566] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:dark_steel_boots
+com.google.gson.JsonSyntaxException: Invalid pattern: each row must be the same width
+	at net.minecraft.item.crafting.ShapedRecipe.patternFromJson(ShapedRecipe.java:253) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$100(ShapedRecipe.java:26) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:303) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.569] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_boot
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.574] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_helmet
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.578] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:dark_steel_block
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:crafting_shapless'
+	at net.minecraft.item.crafting.RecipeManager.lambda$func_215377_a$8(RecipeManager.java:133) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:132) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.590] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:ruby_boots
+com.google.gson.JsonSyntaxException: Invalid pattern: each row must be the same width
+	at net.minecraft.item.crafting.ShapedRecipe.patternFromJson(ShapedRecipe.java:253) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$100(ShapedRecipe.java:26) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:303) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.599] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_axe
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.602] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:ruby_block
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:crafting_shapless'
+	at net.minecraft.item.crafting.RecipeManager.lambda$func_215377_a$8(RecipeManager.java:133) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:132) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.614] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:dark_steel_pickaxe
+com.google.gson.JsonSyntaxException: Pattern references symbol 'D' but it's not defined in the key
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeIngredients(ShapedRecipe.java:170) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$200(ShapedRecipe.java:26) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:306) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.616] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_sword
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.618] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:dark_steel_shovel
+com.google.gson.JsonSyntaxException: Pattern references symbol 'D' but it's not defined in the key
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeIngredients(ShapedRecipe.java:170) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$200(ShapedRecipe.java:26) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:306) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.703] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_block
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:crafting_shapless'
+	at net.minecraft.item.crafting.RecipeManager.lambda$func_215377_a$8(RecipeManager.java:133) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:132) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.714] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:ruby_leggings
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.717] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:vibranium_hoe
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:96) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:131) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.719] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cx:dark_steel_sword
+com.google.gson.JsonSyntaxException: Invalid pattern: each row must be the same width
+	at net.minecraft.item.crafting.ShapedRecipe.patternFromJson(ShapedRecipe.java:253) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$100(ShapedRecipe.java:26) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:303) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:64) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_211]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_211]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1526) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:431) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:00:48.726] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[18Jul2019 10:00:54.899] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[18Jul2019 10:00:55.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Jul2019 10:01:03.713] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.714] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.714] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.714] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.714] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.714] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.714] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.714] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:03.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:04.307] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:01:05.263] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[18Jul2019 10:01:05.263] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[18Jul2019 10:01:09.235] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:01:10.488] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:10.489] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:10.829] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:11.269] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:11.812] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:12.223] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:12.808] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:13.246] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:14.031] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:14.312] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:14.756] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:15.273] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[18Jul2019 10:01:15.786] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[18Jul2019 10:01:16.218] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[18Jul2019 10:01:16.750] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[18Jul2019 10:01:17.270] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[18Jul2019 10:01:17.768] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[18Jul2019 10:01:17.927] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 22216 ms
+[18Jul2019 10:01:19.314] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Jul2019 10:01:19.317] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Jul2019 10:01:20.197] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[18Jul2019 10:01:26.221] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[18Jul2019 10:01:26.727] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:82d45009] logged in with entity id 352 at (-12.96452705963702, 71.0, 122.887730378258)
+[18Jul2019 10:01:26.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[18Jul2019 10:01:28.272] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[18Jul2019 10:01:28.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Ore Gen 2.3'/minecraft:overworld
+[18Jul2019 10:01:29.190] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[18Jul2019 10:01:32.343] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@a00a39[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) ~[authlib-1.5.25.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3527) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2276) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2154) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2044) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3973) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4957) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4963) ~[guava-25.1-jre.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) ~[authlib-1.5.25.jar:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:1944) ~[?:?]
+	at net.minecraft.client.resources.SkinManager.lambda$loadProfileTextures$1(SkinManager.java:111) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_211]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_211]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[18Jul2019 10:01:55.298] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[18Jul2019 10:01:59.588] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
