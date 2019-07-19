@@ -4,11 +4,14 @@
 
 
 
-Stuff To Come Later on in the mod
+## Stuff To Come Later on in the mod.
 
-Custom Info book
-Custom Block with a gui 
-Cutsom Item with a gui
-Custom Food 
+Custom Info book.
+
+Custom Block with a gui.
+
+Cutsom Item with a gui.
+
+Custom Food.
 
 
