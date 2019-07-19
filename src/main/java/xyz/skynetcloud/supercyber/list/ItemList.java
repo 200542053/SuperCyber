@@ -4,6 +4,7 @@ import net.minecraft.item.Item;
 
 public class ItemList {
 
+
 	/*
 	 * TODO Add a way to get dust public static Item RUBY_DUST; public static Item
 	 * DARK_STEEL_DUST;
