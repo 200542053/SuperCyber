@@ -11,6 +11,7 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Rarity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
@@ -53,7 +54,7 @@ public class SuperCyber {
 
 	private void setup(final FMLCommonSetupEvent event) {
 		OreGeneration.setupOreGeneration();
-		
+
 		logger.info("Setup method registered.");
 
 	}
@@ -78,7 +79,7 @@ public class SuperCyber {
 					ItemList.VIBRANIUM = new Item(new Item.Properties().group(SuperCyber.cybertab))
 							.setRegistryName(location("vibranium")),
 
-					ItemList.DARK_STEEL_AXE = new ToolAxeBase(ToolMaterialList.dark_steel, 3, 3,
+					ItemList.DARK_STEEL_AXE = new PickaxeItem(ToolMaterialList.dark_steel, 3, 3,
 							new Item.Properties().group(SuperCyber.cybertab))
 									.setRegistryName(location("dark_steel_axe")),
 					ItemList.DARK_STEEL_HOE = new ToolHoeBase(ToolMaterialList.dark_steel, 0,

@@ -12,6 +12,8 @@ import net.minecraft.world.World;
 
 public class ToolAxeBase extends AxeItem {
 
+	
+	
 	public ToolAxeBase(IItemTier tier, float attackDamageIn, float attackSpeedIn, Properties builder) {
 		super(tier, attackDamageIn, attackSpeedIn, builder);
 	}
